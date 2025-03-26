@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/onboardbackgroundcolor"
+    android:backgroundTint="@color/onboardbackgroundcolor"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".OnBoard2">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="351dp"
+        android:layout_height="390dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/onboard2img" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Plan Your Adventure"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="297dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Organize Your trips easily and Make your Bookings Safely"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:background="@color/text_secondary" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:background="@color/onbodardButton" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:background="@color/text_secondary" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/onBoard2Btn1"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="@color/onbodardButton"
+        android:text="NEXT"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
