@@ -35,7 +35,7 @@ class ThirdActivity : AppCompatActivity() {
 
         bookHotel.setOnClickListener {
             // Navigate to HotelsActivity
-            val intent = Intent(this, FourthActivity::class.java)
+            val intent = Intent(this,FourthActivity::class.java)
             startActivity(intent)
         }
 
