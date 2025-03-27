@@ -1,10 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:weightSum="10"
     tools:context=".ThirdActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/a3text1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Hi,Sara"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/a3text2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="Let's Explore Adventure world"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/a3text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="Search country here" />
+
+            <SearchView
+                android:id="@+id/searchbar1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:queryHint="Sri lanka" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+
+                    android:layout_margin="10dp">
+
+                    <Button
+                        android:id="@+id/hikingbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Hiking" />
+
+                    <Button
+                        android:id="@+id/divingbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Diving" />
+
+                    <Button
+                        android:id="@+id/campingbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Camping" />
+
+                    <Button
+                        android:id="@+id/paradivingbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Para Diving" />
+                    <Button
+                        android:id="@+id/skydivingbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="SkyDiving"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/a3text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular places"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/p2sigiriya" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="20dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/p2adamspeak" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="200dp"
+                        android:layout_height="300dp"
+                        android:layout_marginLeft="20dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/p2hanthana" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            app:srcCompat="@drawable/searchbtn" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/savebtn" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/bookingbtn" />
+
+        <ImageView
+            android:id="@+id/profBtn"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/profilebtn" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
