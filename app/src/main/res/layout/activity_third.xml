@@ -47,14 +47,14 @@
                 android:layout_marginLeft="10dp"
                 android:text="Search country here" />
 
+
             <SearchView
                 android:id="@+id/searchbar1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
                 android:queryHint="Sri lanka" />
+
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
