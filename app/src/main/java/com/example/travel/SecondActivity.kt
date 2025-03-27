@@ -23,7 +23,7 @@ class SecondActivity : AppCompatActivity() {
 
         profileimgview.setOnClickListener {
             // Navigate to HotelsActivity
-            val intent = Intent(this, ThirdActivity::class.java)
+            val intent = Intent(this, SettingsPage::class.java)
             startActivity(intent)
         }
 

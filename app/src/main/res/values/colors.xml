@@ -3,13 +3,44 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="onboardbackgroundcolor">#746FA0C7</color>
-    <color name="primary">#FFFFFF</color>
-    <color name="secondary">#2D9CDB</color>
-    <color name="accent">#F2C94C</color>
-    <color name="text_primary">#2D3436</color>
-    <color name="text_secondary">#6C757D</color>
+
+
     <color name="onscreenboardNav">#CDD54747</color>
     <color name="logoscreen">#182E34</color>
     <color name="onbodardButton">#E83F3F</color>
+
+    <!-- Primary (60%) - Dominant color -->
+    <color name="primary">#2D9CDB</color>  <!-- Nice blue -->
+    <color name="primary_dark">#1E6EA7</color>
+    <color name="primary_light">#E6F3FB</color>
+
+    <!-- Secondary (30%) - Supporting color -->
+    <color name="secondary">#F2F2F2</color>  <!-- Light gray -->
+    <color name="secondary_dark">#E0E0E0</color>
+
+    <!-- Accent (10%) - Highlight color -->
+    <color name="accent">#F2C94C</color>  <!-- Warm yellow -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#333333</color>  <!-- Dark gray for primary text -->
+    <color name="text_secondary">#666666</color>  <!-- Medium gray -->
+    <color name="text_on_primary">#FFFFFF</color>  <!-- White text on primary color -->
+    <color name="text_on_accent">#333333</color>  <!-- Dark text on accent -->
+
+    <!-- Backgrounds -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#F5F5F5</color>
+
+    <!-- Status colors -->
+    <color name="success">#27AE60</color>
+    <color name="warning">#F2994A</color>
+    <color name="error">#EB5757</color>
+
+    <color name="primary_blue_dark">#1E3A8A</color>  <!-- 60% - Dark blue background -->
+    <color name="primary_blue">#2D9CDB</color>      <!-- Secondary blue -->
+    <color name="secondary_light">#F8F9FA</color>    <!-- 30% - Light gray cards -->
+    <color name="accent_yellow">#F2C94C</color>     <!-- 10% - Yellow button -->
+
+
 
 </resources>
