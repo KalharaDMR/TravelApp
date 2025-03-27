@@ -1,6 +1,8 @@
 package com.example.travel
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +29,14 @@ class ThirdActivity : AppCompatActivity() {
 
         if(action == "com.example.MY_CUSTIOM_ACTION"){
             textViewGreeting.text = "Activity opened via Custom Intent!"
+        }
+
+        val bookHotel: ImageView = findViewById(R.id.imageView11)
+
+        bookHotel.setOnClickListener {
+            // Navigate to HotelsActivity
+            val intent = Intent(this, FourthActivity::class.java)
+            startActivity(intent)
         }
 
 
