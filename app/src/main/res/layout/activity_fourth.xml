@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".FourthActivity">
 
     <androidx.cardview.widget.CardView
@@ -50,8 +51,8 @@
 
             <ImageView
                 android:id="@+id/imageView15"
-                android:layout_width="50dp"
-                android:layout_height="25dp"
+                android:layout_width="65dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:scaleType="fitXY"
