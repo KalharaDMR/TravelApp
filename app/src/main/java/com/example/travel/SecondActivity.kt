@@ -20,12 +20,29 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         val profileimgview: ImageView = findViewById(R.id.profBtn)
+        val searchimgview: ImageView = findViewById(R.id.searchBtn)
+        val bookingimgview: ImageView = findViewById(R.id.bookingBtn)
+        val saveimgview: ImageView = findViewById(R.id.saveBtn)
 
         profileimgview.setOnClickListener {
             // Navigate to HotelsActivity
             val intent = Intent(this, SettingsPage::class.java)
             startActivity(intent)
         }
+
+        searchimgview.setOnClickListener {
+            // Navigate to HotelsActivity
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
+
+        bookingimgview.setOnClickListener {
+            // Navigate to HotelsActivity
+            val intent = Intent(this, bookingsPage::class.java)
+            startActivity(intent)
+        }
+
+
 
 
     }
