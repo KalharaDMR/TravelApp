@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class hotelBook : AppCompatActivity() {
+class hotelBookingform : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hotel_book)
 
-        val hptel1Btn: Button = findViewById(R.id.hotel1btn)
-        hptel1Btn.setOnClickListener {
-            val intent = Intent(this, hotelBookingform::class.java)
+        setContentView(R.layout.activity_hotel_bookingform)
+
+
+        val hotelBookBtn: Button = findViewById(R.id.Book)
+        hotelBookBtn.setOnClickListener {
+            val intent = Intent(this, bookingsPage::class.java)
             startActivity(intent)
         }
-
-
     }
 }
