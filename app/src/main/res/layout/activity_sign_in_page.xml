@@ -71,12 +71,21 @@
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/primary"
             android:hint="••••••••"
             android:inputType="textPassword"
             android:textColor="@color/text_primary"
             android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot password ?"
+            android:textColor="@color/warning"
+            android:textSize="13sp" />
 
         <!-- Sign In Button -->
         <Button
@@ -89,5 +98,15 @@
             android:textColor="@color/text_on_primary"
             android:textAllCaps="false"
             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Don't have an account ?"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
     </LinearLayout>
 </LinearLayout>
