@@ -19,22 +19,22 @@ class SignInPage : AppCompatActivity() {
         val editTextPassword: EditText = findViewById(R.id.editTextTextPassword)
 
 
-            signinbtn2.setOnClickListener {
-                val name = editTextName.text.toString()
-                val password = editTextPassword.text.toString()
+        signinbtn2.setOnClickListener {
+            val name = editTextName.text.toString()
+            val password = editTextPassword.text.toString()
 
-                if (isPasswordValid(password)) {
-                    val intent = Intent(this, ThirdActivity::class.java)
-                    intent.putExtra("USER_NAME", name)
-                    startActivity(intent)
-                }else {
-                    Toast.makeText(
-                        this,
-                        "Password must be at least 8 characters long",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                }
+            if (isPasswordValid(password)) {
+                val intent = Intent(this, ThirdActivity::class.java)
+                intent.putExtra("USER_NAME", name)
+                startActivity(intent)
+            }else {
+                Toast.makeText(
+                    this,
+                    "Password must be at least 8 characters long",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
+        }
 
 
 
