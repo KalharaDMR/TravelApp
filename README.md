@@ -36,4 +36,7 @@ This project showcases my **UI/UX design skills** using Android Studio. The prim
 
 ---
 
+✍️ Author- D.M.Ramesh Kalhara
+
+
 
